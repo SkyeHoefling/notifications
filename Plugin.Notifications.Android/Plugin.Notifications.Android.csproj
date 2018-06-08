@@ -14,8 +14,8 @@
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,12 +66,12 @@
       <Version>1.1.809</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Compat">
-      <Version>25.3.1</Version>
+      <Version>25.4.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Notifications.Abstractions\Plugin.Notifications.Abstractions.csproj">
-      <Project>{1ed7f929-0eaa-44f2-8b08-38414080e3e3}</Project>
+      <Project>{893f62d6-faa1-453a-adad-a2f09dd2577f}</Project>
       <Name>Plugin.Notifications.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
